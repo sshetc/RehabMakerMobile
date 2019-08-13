@@ -1,0 +1,9 @@
+RehabMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  RehabMaker.Picture.bletooth.png
+  RehabMaker.Picture.brows.png
+  RehabMaker.Picture.LoginInToShare.png
+  RehabMaker.Picture.logo_min_svg.png
+  RehabMaker.Picture.logo_svg.png
+  RehabMaker.Picture.RehabMaker.png
+  RehabMaker.Picture.start_svg.png
+  RehabMaker.Picture.stop.png

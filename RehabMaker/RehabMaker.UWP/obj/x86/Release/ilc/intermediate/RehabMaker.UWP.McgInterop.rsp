@@ -1,0 +1,39 @@
+﻿/debug:pdbonly
+/nowarn:0436;0618;1668;1685;1701;1702
+/debug+
+/nostdlib+
+/optimize+
+/out:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop.dll"
+/pdb:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop.pdb"
+/platform:anycpu
+/warnaserror+
+/unsafe
+/nologo
+/target:library
+/define:MCG_PRE_BUILD
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Private.CoreLib.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Private.Interop.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Private.Uri.iltoc"
+/r:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\in\System.Reflection.DispatchProxy.dll"
+/r:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\in\System.Reflection.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Runtime.iltoc"
+/r:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\in\System.Runtime.InteropServices.dll"
+/r:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll"
+/r:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\in\System.Numerics.Vectors.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Threading.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Diagnostics.Debug.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Runtime.Extensions.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Collections.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.ObjectModel.iltoc"
+/r:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.dll"
+/r:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc\System.Private.SharedLibrary.Interop.Generated.iltoc"
+/r:"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\System.Private.RehabMaker.UWP.Generated.dll"
+"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop\Adapters.g.cs"
+"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop\AssemblyInfo.g.cs"
+"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop\Data.g.cs"
+"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop\Helpers.g.cs"
+"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop\ImplTypes.g.cs"
+"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop\PInvoke.g.cs"
+"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop\SafeTypes.g.cs"
+"C:\rehammmker\RehabMaker\RehabMaker\RehabMaker.UWP\obj\x86\Release\ilc\intermediate\RehabMaker.UWP.McgInterop\SharedStubs.g.cs"

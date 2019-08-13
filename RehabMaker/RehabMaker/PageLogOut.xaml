@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RehabMaker.PageLogOut"
+            NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[
+            
+             stacklayout {
+                margin: 15;
+                padding: 10;
+            }
+            
+            
+            ]]>
+        </StyleSheet>
+    </ContentPage.Resources>
+
+    <ScrollView>
+
+
+        <StackLayout Padding="12">
+            <StackLayout VerticalOptions="Start">
+                <Image x:Name="LogoRM"  VerticalOptions="Start" HorizontalOptions="Center" />
+                <Image x:Name="RehabMker"  VerticalOptions="Start" HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand" >
+     
+                <Button 
+                x:Name="buttonLogOut" 
+                Text="Log Out" 
+                BorderRadius="7" 
+                FontSize="17"
+                TextColor="White" 
+                BackgroundColor="#4568B2" 
+                BorderWidth="1" 
+                Clicked="buttonlogout_clicked" 
+                VerticalOptions="Center"
+                ></Button>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

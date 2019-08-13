@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RehabMaker.LoginInToShare"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[
+            
+             stacklayout {
+                margin: 15;
+                padding: 10;
+            }
+            
+            
+            ]]>
+        </StyleSheet>
+    </ContentPage.Resources>
+
+    <ScrollView>
+       
+
+    <StackLayout Padding="12">
+            <StackLayout VerticalOptions="Start">
+                <Image x:Name="LogoRM"  VerticalOptions="Start" HorizontalOptions="Center" />
+                <Image x:Name="RehabMker"  VerticalOptions="Start" HorizontalOptions="Center" />
+            </StackLayout>
+                <StackLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand" >
+                <Image x:Name="LogItSh"  VerticalOptions="Start" HorizontalOptions="Center" />   
+            <Button 
+                x:Name="buttonGoogle" 
+                Text="Google" 
+                BorderRadius="7" 
+                FontSize="17"
+                TextColor="White" 
+                BackgroundColor="#CC3333" 
+                BorderWidth="1" 
+                Clicked="buttongoogle_clicked" 
+                VerticalOptions="Center"
+                
+                ></Button>
+        <Button 
+                x:Name="buttonFacebook" 
+                Text="Facebook" 
+                BorderRadius="7" 
+                FontSize="17"
+                TextColor="White" 
+                BackgroundColor="#1DA0F1" 
+                BorderWidth="1" 
+                Clicked="buttonFacebook_clicked" 
+                VerticalOptions="Center"
+                ></Button>
+        <Button 
+                x:Name="buttonTwitter" 
+                Text="Twitter" 
+                BorderRadius="7" 
+                FontSize="17"
+                TextColor="White" 
+                BackgroundColor="#4568B2" 
+                BorderWidth="1" 
+                Clicked="buttonTwitter_clicked" 
+                VerticalOptions="Center"
+                ></Button>
+    </StackLayout>
+        
+            
+        </StackLayout>
+        </ScrollView>
+</ContentPage>

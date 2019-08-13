@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RehabMaker.PopupView"
+             >
+        
+    <StackLayout
+        Margin="12"
+        Padding="24"
+        Spacing="24">
+        <StackLayout>
+            <Label Text="Number Device" HorizontalOptions="FillAndExpand"/>
+            <Entry
+                HorizontalOptions="FillAndExpand"
+                x:Name="RemDevice"
+                FontSize="30"
+                   />
+        </StackLayout>
+        <Button x:Name="UpDate" 
+            BackgroundColor="DodgerBlue"
+                FontSize="30"
+                Text="Update"
+                TextColor="White"
+                Clicked="Update_Clicked"/>
+    </StackLayout>
+</ContentPage>
